@@ -1,0 +1,37 @@
+meme_dict = {
+            "КРИНЖ": "Что-то очень странное или стыдное",
+            "ЛОЛ": "Что-то очень смешное",
+            "ИМБА":"Что-то очень классное",
+            "ФЛЕШБЕКНУЛО":"Когда вспомнилось прошлое",
+            "КРАШ":"Кто-то кто очень нравится"}
+            
+word = input("Здравствуйте,здесь мы обьясняем речь младшего поколения!Введите непонятное слово (большими буквами!): ")
+if word in meme_dict.keys():
+    print(meme_dict[word])
+    word_1 = input("Введите непонятное слово (большими буквами!): ")
+   
+elif word_1 in meme_dict.keys():
+    print(meme_dict[word_1])
+    word_2 = input("Введите непонятное слово (большими буквами!!): ")
+   
+
+elif word_2 in meme_dict.keys():
+    print(meme_dict[word_2])
+    word_3 = input("Введите непонятное слово (большими буквами!!!): ")
+   
+
+elif word_3 in meme_dict.keys():
+    print(meme_dict[word_3])
+    word_4 = input("Введите непонятное слово (большими буквами!!!!): ")
+    
+
+elif word_4 in meme_dict.keys():
+    print(meme_dict[word_4])
+    word_5 = input("Введите непонятное слово (большими буквами!!!!!): ")
+   
+
+elif word_5 in meme_dict.keys():
+    print(meme_dict[word_5])
+    
+else:
+    print('Ваше слово не нашлось :( .Повторите попытку')
